@@ -28,6 +28,7 @@ fetch(
     sunset.innerHTML = response.sunset
   })
   .catch((err) => console.error(err));
+  
 }
 
 submit.addEventListener("click",(e)=>{
