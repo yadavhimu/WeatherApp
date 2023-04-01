@@ -14,7 +14,6 @@ fetch(
   .then((response) => {
     console.log(response)
     
-    // cloud_pct.innerHTML = response.cloud_pct
     temp.innerHTML = response.temp
 	temp2.innerHTML = response.temp
     feels_like.innerHTML = response.feels_like
